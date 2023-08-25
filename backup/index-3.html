@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<h1 class="page-title" style="display: flex; justify-content: center; align-items: center;"><img alt="QOQ" src="QOQ.png" style="max-width: 100%; height: auto;"/></h1>
+<style>
+    /* 页面标题样式 */
+    .page-title {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    /* 游戏卡片样式 */
+    .game-card {
+      display: flex;
+      align-items: center;
+      width: 50vw;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      position: relative;
+    }
+
+    /* 游戏图标样式 */
+    .game-icon {
+      flex: 0 0 auto;
+      width: 100px;
+      height: 100px;
+      background-color: #f1f1f1;
+      margin-right: 10px;
+    }
+
+    /* 标题样式 */
+    .game-title {
+      font-weight: bold;
+      font-size: 1.8vw;
+      margin-bottom: 5px;
+    }
+
+    /* 简介样式 */
+    .game-description {
+      font-size: 1.4vw;
+      color: #666;
+    }
+
+    /* 弹窗容器样式 */
+    .popup-container {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 300px;
+      background-color: #f1f1f1;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      z-index: 9999;
+    }
+
+    /* 商品信息样式 */
+    .product-info {
+      display: flex;
+      align-items: center;
+    }
+
+    .product-image {
+      width: 60px;
+      height: 60px;
+      background-color: #ccc;
+      margin-right: 10px;
+    }
+
+    .product-name {
+      font-weight: bold;
+    }
+
+    .product-price {
+      color: #666;
+      margin-top: 5px;
+    }
+  
+.game-card {
+    width: clamp(300px, 70vw, 700px);
+}
+.game-title {
+    font-size: clamp(18px, 2.2vw, 24px);
+}
+.game-description {
+    font-size: clamp(14px, 1.8vw, 20px);
+}
+
+</style>
+</head>
+<body>
+<!-- <div class="game-card" style="display: flex; flex-direction: row; justify-content: start; align-items: center; width: 80%; max-width: 800px; margin: 0 auto;">
+<div class="game-icon" style="width: 100px; height: 100px; background-size: contain; background-position: center; background-repeat: no-repeat; margin-right: 20px;"></div>
+<div style="flex: 3; display: flex; flex-direction: column; justify-content: center;">
+<div class="game-title">游戏标题</div>
+<div class="game-description">游戏简介</div>
+</div>
+</div> -->
+<!-- 弹窗容器 -->
+<div class="popup-container">
+<div class="product-info">
+<div class="product-image"></div>
+<div>
+<div class="product-name">商品名称</div>
+<div class="product-price">商品价格</div>
+</div>
+</div>
+</div>
+<div style="display: flex; flex-direction: row; justify-content: start; align-items: center; width: 80%; max-width: 600px; margin: 20px auto;"><div class="game-icon" style="width: 100px; height: 100px; background-image: url('NGame_MeiDou.png'); background-size: contain; background-position: center; background-repeat: no-repeat; margin-right: 20px;"></div><div style="flex: 3; display: flex; flex-direction: column; justify-content: center;"><h2>妹斗核兽</h2><p>带妹子大战日产核兽！！！</p></div></div><div style="display: flex; flex-direction: row; justify-content: start; align-items: center; width: 80%; max-width: 600px; margin: 20px auto;"><div class="game-icon" style="width: 100px; height: 100px; background-image: url('NGame_Tank.png'); background-size: contain; background-position: center; background-repeat: no-repeat; margin-right: 20px;"></div><div style="flex: 3; display: flex; flex-direction: column; justify-content: center;"><h2>妹斗坦克</h2><p>碾压妹子吧！！！</p></div></div></body>
+</html>
