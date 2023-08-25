@@ -80,14 +80,16 @@
       margin-top: 5px;
     }
   
-.game-card {
-    width: clamp(300px, 70vw, 700px);
-}
-.game-title {
-    font-size: clamp(18px, 2.2vw, 24px);
-}
-.game-description {
-    font-size: clamp(14px, 1.8vw, 20px);
+@media only screen and (min-width: 600px) {
+    .game-card {
+        width: 70vw;
+    }
+    .game-title {
+        font-size: 2.2vw;
+    }
+    .game-description {
+        font-size: 1.8vw;
+    }
 }
 
 </style>
