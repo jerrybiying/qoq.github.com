@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <h1 class="page-title" style="background-color: #ffffff; color: #ffd900;">QoQ</h1>
+<style>
+    /* 页面标题样式 */
+    .page-title {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    /* 游戏卡片样式 */
+    .game-card {
+      display: flex;
+      align-items: center;
+      width: 500px;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      position: relative;
+    }
+
+    /* 游戏图标样式 */
+    .game-icon {
+      flex: 0 0 auto;
+      width: 100px;
+      height: 100px;
+      background-color: #f1f1f1;
+      margin-right: 10px;
+    }
+
+    /* 标题样式 */
+    .game-title {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+
+    /* 简介样式 */
+    .game-description {
+      font-size: 14px;
+      color: #666;
+    }
+
+    /* 弹窗容器样式 */
+    .popup-container {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 300px;
+      background-color: #f1f1f1;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      z-index: 9999;
+    }
+
+    /* 商品信息样式 */
+    .product-info {
+      display: flex;
+      align-items: center;
+    }
+
+    .product-image {
+      width: 60px;
+      height: 60px;
+      background-color: #ccc;
+      margin-right: 10px;
+    }
+
+    .product-name {
+      font-weight: bold;
+    }
+
+    .product-price {
+      color: #666;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+<div class="game-card">
+<div class="game-icon" style="background-image: url('NGame_Tank.png'); background-size: cover;"></div>
+<div>
+<div class="game-title">游戏标题</div>
+<div class="game-description">游戏简介</div>
+</div>
+</div>
+<div class="game-card">
+<div class="game-icon" style="background-image: url('NGame_MeiDou.png'); background-size: cover;"></div>
+<div>
+<div class="game-title">游戏标题</div>
+<div class="game-description">游戏简介</div>
+</div>
+</div> <div class="game-card">
+<div class="game-icon"></div>
+<div>
+<div class="game-title">游戏标题</div>
+<div class="game-description">游戏简介</div>
+</div>
+</div> <div class="game-card">
+<div class="game-icon"></div>
+<div>
+<div class="game-title">游戏标题</div>
+<div class="game-description">游戏简介</div>
+</div>
+</div> <div class="game-card">
+<div class="game-icon"></div>
+<div>
+<div class="game-title">游戏标题</div>
+<div class="game-description">游戏简介</div>
+</div>
+</div> <div class="game-card">
+<div class="game-icon"></div>
+<div>
+<div class="game-title">游戏标题</div>
+<div class="game-description">游戏简介</div>
+</div>
+</div>
+<!-- 弹窗容器 -->
+<div class="popup-container">
+<div class="product-info">
+<div class="product-image"></div>
+<div>
+<div class="product-name">商品名称</div>
+<div class="product-price">商品价格</div>
+</div>
+</div>
+</div>
+</body>
+</html>
